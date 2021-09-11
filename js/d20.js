@@ -1,10 +1,3 @@
-
-
-// console.log(randomD20);
-
-
-
-
 const d20Result = document.querySelector('#d20_dice').addEventListener('click', generateD20);
 const resetBtn = document.querySelector('#reset-btn').addEventListener('click', resetGenerator);
 let d20Output = document.querySelector('#d20_total');
@@ -18,9 +11,6 @@ const modifierValue = document.querySelector('#d20_add-modifier');
 
 // attrValue = 1;
 // console.log(attrValue);
-
-
-
 
 
 function generateD20() {
